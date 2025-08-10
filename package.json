@@ -1,0 +1,28 @@
+{
+  "name": "nonvi-payment",
+  "version": "1.0.0",
+  "description": "Simulateur de paiement Mobile Money (Moov/Flooz) pour Nonvi Voyage",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "paiement",
+    "mobile money",
+    "Moov",
+    "Flooz",
+    "simulateur"
+  ],
+  "author": "TonNom",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "node": "^22.18.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
